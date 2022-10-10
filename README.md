@@ -1,4 +1,34 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+
+## Installazione: <br/>
+```
+git clone https://github.com/markcaf/laravel-cart-test.git
+npm install
+composer install
+modificare file .env con dati database phpMyAdmin 
+php artisan migrate:refresh --seed
+ 
+npm run watch
+php artisan serve
+
+```
+-----------
+<h1 align="center">Index</h1>
+
+<p align="center"><img src="https://tinypic.host/images/2022/10/10/index.png" width="650"></p>
+
+<h1 align="center">Add To Cart</h1>
+
+<p align="center"><img src="https://tinypic.host/images/2022/10/10/addToCart.png" width="650"></p>
+
+<h1 align="center">Cart su index</h1>
+
+<p align="center"><img src="https://tinypic.host/images/2022/10/10/cart-su-index.png" width="650"></p>
+
+<h1 align="center">Cart, update, remove</h1>
+
+<p align="center"><img src="https://tinypic.host/images/2022/10/10/cart-update-remove.png" width="650"></p>
+
+<p align="center">Laravel 7</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
